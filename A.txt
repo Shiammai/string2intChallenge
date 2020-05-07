@@ -1,6 +1,0 @@
-public class Test {
-	public static void main(String[] args) {
-		String word = new String ("abc573");
-		System.out.println(String.valueOf(word.substring(3)));
-	}  
-}
