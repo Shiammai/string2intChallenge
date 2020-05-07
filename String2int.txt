@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Test3 {
+	public static void main(String[] args) {
+		String word;
+		Scanner scn = new Scanner(System.in);
+		System.out.println("Input : ");	
+		word = scn.nextLine();
+		System.out.println("Output : " + String.valueOf(word.replaceAll("[^\\d]", "")));
+	}
+}
